@@ -19,6 +19,7 @@
 		9D583EBA2A01657100C1F1E7 /* HomeCategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D583EB92A01657100C1F1E7 /* HomeCategoryItemView.swift */; };
 		9D583EBC2A0167A000C1F1E7 /* HomeCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D583EBB2A0167A000C1F1E7 /* HomeCategoryView.swift */; };
 		9DD125682A016E7F0032A61C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD125672A016E7F0032A61C /* Constants.swift */; };
+		9DD1256A2A0175250032A61C /* SearchCategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD125692A0175250032A61C /* SearchCategoryCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		9D583EB92A01657100C1F1E7 /* HomeCategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryItemView.swift; sourceTree = "<group>"; };
 		9D583EBB2A0167A000C1F1E7 /* HomeCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryView.swift; sourceTree = "<group>"; };
 		9DD125672A016E7F0032A61C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9DD125692A0175250032A61C /* SearchCategoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCategoryCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +69,9 @@
 		9D583E922A01577000C1F1E7 /* SpotifySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				9DD125662A016DD50032A61C /* Constants */,
 				9D583E932A01577000C1F1E7 /* SpotifySwiftUIApp.swift */,
 				9D583EAB2A015B1500C1F1E7 /* MainView.swift */,
+				9DD125662A016DD50032A61C /* Constants */,
 				9D583EA32A01584200C1F1E7 /* Extensions */,
 				9D583EA22A01584000C1F1E7 /* Components */,
 				9D583EA12A01583C00C1F1E7 /* Core */,
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				9D583EB32A015B8A00C1F1E7 /* SearchView.swift */,
+				9DD125692A0175250032A61C /* SearchCategoryCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D583EBA2A01657100C1F1E7 /* HomeCategoryItemView.swift in Sources */,
+				9DD1256A2A0175250032A61C /* SearchCategoryCard.swift in Sources */,
 				9D583EB42A015B8A00C1F1E7 /* SearchView.swift in Sources */,
 				9D583EA62A01587700C1F1E7 /* HomeView.swift in Sources */,
 				9D583EBC2A0167A000C1F1E7 /* HomeCategoryView.swift in Sources */,
