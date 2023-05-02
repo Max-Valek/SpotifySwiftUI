@@ -28,7 +28,7 @@ struct HomeCategoryView: View {
                 }
             }
         }
-        .padding(.vertical)
+        .padding(.vertical, 8)
     }
 }
 

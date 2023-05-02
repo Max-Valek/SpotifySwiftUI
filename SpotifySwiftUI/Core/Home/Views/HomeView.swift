@@ -41,6 +41,14 @@ struct HomeView: View {
                 recentItemsGrid
                 
                 HomeCategoryView(title: "Recently Played", items: recentItems)
+                
+                HomeCategoryView(title: "Your Playlists", items: recentItems)
+                
+                HomeCategoryView(title: "Your top mixes", items: recentItems)
+                
+                HomeCategoryView(title: "Made For user", items: recentItems)
+                
+                HomeCategoryView(title: "Uniquely yours", items: recentItems)
             }
             .padding(.horizontal)
         }
@@ -57,8 +65,9 @@ struct HomeView_Previews: PreviewProvider {
 extension HomeView {
     
     private var titleAndButtons: some View {
-        HStack {
+        HStack(spacing: 24) {
             Text("Good Morning")
+                .fontWeight(.bold)
             Spacer()
             Image(systemName: "bell")
             Image(systemName: "clock")
@@ -98,5 +107,6 @@ extension HomeView {
             }
         }
         .padding(.vertical, 8)
+        .padding(.bottom)
     }
 }

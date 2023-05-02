@@ -65,6 +65,7 @@
 		9D583E922A01577000C1F1E7 /* SpotifySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				9DD125662A016DD50032A61C /* Constants */,
 				9D583E932A01577000C1F1E7 /* SpotifySwiftUIApp.swift */,
 				9D583EAB2A015B1500C1F1E7 /* MainView.swift */,
 				9D583EA32A01584200C1F1E7 /* Extensions */,
@@ -182,6 +183,13 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9DD125662A016DD50032A61C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
