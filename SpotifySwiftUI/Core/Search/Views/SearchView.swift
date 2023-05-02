@@ -32,6 +32,7 @@ struct SearchView: View {
                     Spacer()
                 }
                 .padding(.vertical)
+                
                 LazyVGrid(columns: columns) {
                     ForEach(0..<25) { _ in
                         SearchCategoryCard()
