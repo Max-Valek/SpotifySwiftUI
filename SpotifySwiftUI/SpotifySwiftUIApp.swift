@@ -11,7 +11,9 @@ import SwiftUI
 struct SpotifySwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            
+            MainView()
+            
         }
     }
 }
