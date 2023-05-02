@@ -16,6 +16,8 @@
 		9D583EB42A015B8A00C1F1E7 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D583EB32A015B8A00C1F1E7 /* SearchView.swift */; };
 		9D583EB62A015B9500C1F1E7 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D583EB52A015B9500C1F1E7 /* LibraryView.swift */; };
 		9D583EB82A01619900C1F1E7 /* RecentItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D583EB72A01619900C1F1E7 /* RecentItemView.swift */; };
+		9D583EBA2A01657100C1F1E7 /* HomeCategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D583EB92A01657100C1F1E7 /* HomeCategoryItemView.swift */; };
+		9D583EBC2A0167A000C1F1E7 /* HomeCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D583EBB2A0167A000C1F1E7 /* HomeCategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		9D583EB32A015B8A00C1F1E7 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		9D583EB52A015B9500C1F1E7 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		9D583EB72A01619900C1F1E7 /* RecentItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentItemView.swift; sourceTree = "<group>"; };
+		9D583EB92A01657100C1F1E7 /* HomeCategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryItemView.swift; sourceTree = "<group>"; };
+		9D583EBB2A0167A000C1F1E7 /* HomeCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 			children = (
 				9D583EA52A01587700C1F1E7 /* HomeView.swift */,
 				9D583EB72A01619900C1F1E7 /* RecentItemView.swift */,
+				9D583EB92A01657100C1F1E7 /* HomeCategoryItemView.swift */,
+				9D583EBB2A0167A000C1F1E7 /* HomeCategoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,8 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D583EBA2A01657100C1F1E7 /* HomeCategoryItemView.swift in Sources */,
 				9D583EB42A015B8A00C1F1E7 /* SearchView.swift in Sources */,
 				9D583EA62A01587700C1F1E7 /* HomeView.swift in Sources */,
+				9D583EBC2A0167A000C1F1E7 /* HomeCategoryView.swift in Sources */,
 				9D583EAC2A015B1500C1F1E7 /* MainView.swift in Sources */,
 				9D583E942A01577000C1F1E7 /* SpotifySwiftUIApp.swift in Sources */,
 				9D583EB62A015B9500C1F1E7 /* LibraryView.swift in Sources */,

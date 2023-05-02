@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RecentItemView: View {
     
-    let item: RecentItem
+    let item: Item
     
     var body: some View {
         
@@ -37,7 +37,7 @@ struct RecentItemView: View {
 
 struct RecentItemView_Previews: PreviewProvider {
     static var previews: some View {
-        RecentItemView(item: RecentItem(title: "Country", image: "spotify"))
+        RecentItemView(item: Item(title: "Country", image: "spotify"))
             .preferredColorScheme(.dark)
     }
 }

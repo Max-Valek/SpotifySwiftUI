@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RecentItem: Hashable {
+struct Item: Hashable {
     let title: String
     let image: String
 }
@@ -16,13 +16,13 @@ struct HomeView: View {
     
     let columns = [GridItem(.flexible()), GridItem(.flexible())]
     
-    let recentItems: [RecentItem] = [
-        RecentItem(title: "Rap", image: "spotify"),
-        RecentItem(title: "Country", image: "spotify"),
-        RecentItem(title: "Rock", image: "spotify"),
-        RecentItem(title: "Pop", image: "spotify"),
-        RecentItem(title: "EDM", image: "spotify"),
-        RecentItem(title: "Classical", image: "spotify"),
+    let recentItems: [Item] = [
+        Item(title: "Rap", image: "spotify"),
+        Item(title: "Country", image: "spotify"),
+        Item(title: "Rock", image: "spotify"),
+        Item(title: "Pop", image: "spotify"),
+        Item(title: "EDM", image: "spotify"),
+        Item(title: "Classical", image: "spotify"),
     ]
     
     var body: some View {
@@ -39,6 +39,8 @@ struct HomeView: View {
                 topCategoryButtons
                 
                 recentItemsGrid
+                
+                HomeCategoryView(title: "Recently Played", items: recentItems)
             }
             .padding(.horizontal)
         }
