@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D0DE3E22A02D2070095672E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0DE3E12A02D2070095672E /* Item.swift */; };
 		9D583E942A01577000C1F1E7 /* SpotifySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D583E932A01577000C1F1E7 /* SpotifySwiftUIApp.swift */; };
 		9D583E982A01577100C1F1E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D583E972A01577100C1F1E7 /* Assets.xcassets */; };
 		9D583E9B2A01577100C1F1E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D583E9A2A01577100C1F1E7 /* Preview Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D0DE3E12A02D2070095672E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		9D583E902A01577000C1F1E7 /* SpotifySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D583E932A01577000C1F1E7 /* SpotifySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifySwiftUIApp.swift; sourceTree = "<group>"; };
 		9D583E972A01577100C1F1E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D0DE3E02A02D1EB0095672E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D0DE3E12A02D2070095672E /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9D583E872A01577000C1F1E7 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +84,7 @@
 				9DD125662A016DD50032A61C /* Constants */,
 				9D583EA32A01584200C1F1E7 /* Extensions */,
 				9D583EA22A01584000C1F1E7 /* Components */,
+				9D0DE3E02A02D1EB0095672E /* Model */,
 				9D583EA12A01583C00C1F1E7 /* Core */,
 				9D583E972A01577100C1F1E7 /* Assets.xcassets */,
 				9D583E992A01577100C1F1E7 /* Preview Content */,
@@ -272,6 +283,7 @@
 				9DD1256A2A0175250032A61C /* SearchCategoryCard.swift in Sources */,
 				9D583EB42A015B8A00C1F1E7 /* SearchView.swift in Sources */,
 				9D583EA62A01587700C1F1E7 /* HomeView.swift in Sources */,
+				9D0DE3E22A02D2070095672E /* Item.swift in Sources */,
 				9D583EBC2A0167A000C1F1E7 /* HomeCategoryView.swift in Sources */,
 				9D583EAC2A015B1500C1F1E7 /* MainView.swift in Sources */,
 				9DD125682A016E7F0032A61C /* Constants.swift in Sources */,

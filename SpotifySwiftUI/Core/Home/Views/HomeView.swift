@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-struct Item: Hashable {
-    let title: String
-    let image: String
-}
-
 struct HomeView: View {
     
     let columns = [GridItem(.flexible()), GridItem(.flexible())]
