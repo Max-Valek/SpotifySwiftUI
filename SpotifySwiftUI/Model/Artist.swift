@@ -7,9 +7,8 @@
 
 import Foundation
 
-struct Creator {
+struct Artist {
     var name: String
     var songs: [String] = []
-    var shows: [String] = []
     var monthlyListeners: Int = 0
 }
