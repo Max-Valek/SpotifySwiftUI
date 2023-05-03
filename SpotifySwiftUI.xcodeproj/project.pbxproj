@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D0DE3E22A02D2070095672E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0DE3E12A02D2070095672E /* Item.swift */; };
+		9D0DE3E42A02D2290095672E /* Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0DE3E32A02D2290095672E /* Creator.swift */; };
 		9D583E942A01577000C1F1E7 /* SpotifySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D583E932A01577000C1F1E7 /* SpotifySwiftUIApp.swift */; };
 		9D583E982A01577100C1F1E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D583E972A01577100C1F1E7 /* Assets.xcassets */; };
 		9D583E9B2A01577100C1F1E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D583E9A2A01577100C1F1E7 /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		9D0DE3E12A02D2070095672E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9D0DE3E32A02D2290095672E /* Creator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creator.swift; sourceTree = "<group>"; };
 		9D583E902A01577000C1F1E7 /* SpotifySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D583E932A01577000C1F1E7 /* SpotifySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifySwiftUIApp.swift; sourceTree = "<group>"; };
 		9D583E972A01577100C1F1E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				9D0DE3E12A02D2070095672E /* Item.swift */,
+				9D0DE3E32A02D2290095672E /* Creator.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				9D583EA62A01587700C1F1E7 /* HomeView.swift in Sources */,
 				9D0DE3E22A02D2070095672E /* Item.swift in Sources */,
 				9D583EBC2A0167A000C1F1E7 /* HomeCategoryView.swift in Sources */,
+				9D0DE3E42A02D2290095672E /* Creator.swift in Sources */,
 				9D583EAC2A015B1500C1F1E7 /* MainView.swift in Sources */,
 				9DD125682A016E7F0032A61C /* Constants.swift in Sources */,
 				9D583E942A01577000C1F1E7 /* SpotifySwiftUIApp.swift in Sources */,
