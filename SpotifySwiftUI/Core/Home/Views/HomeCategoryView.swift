@@ -20,7 +20,7 @@ struct HomeCategoryView: View {
                 .font(.title3)
                 .fontWeight(.bold)
             
-            ScrollView(.horizontal) {
+            ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack {
                     ForEach(items, id: \.self) { item in
                         HomeCategoryItemView(item: item)

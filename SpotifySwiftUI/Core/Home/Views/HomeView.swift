@@ -27,7 +27,7 @@ struct HomeView: View {
             Color.theme.background
                 .ignoresSafeArea()
             
-            ScrollView {
+            ScrollView(.vertical, showsIndicators: false) {
                 
                 titleAndButtons
                 
